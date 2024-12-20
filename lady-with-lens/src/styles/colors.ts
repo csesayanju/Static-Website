@@ -1,5 +1,4 @@
-import type { Config } from 'tailwindcss';
-
+// Centralized color configuration for consistency and maintainability
 const colors = {
   primary: '#CE3D51',      // LadyWithLens Brand Color
   secondary: '#FFC107',    // Accent color
@@ -7,16 +6,9 @@ const colors = {
   text: '#333333',         // Primary text color
   lightText: '#888888',    // Secondary text color
   border: '#E0E0E0',       // Border color for elements
+  highlight: '#FF4081',    // Highlight color for interactive elements
+  darkBackground: '#2C2C2C', // Dark mode background
+  lightBackground: '#FFFFFF', // Light mode background
 };
 
-const config: Config = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  theme: {
-    extend: {
-      colors, // Directly use the `colors` object
-    },
-  },
-  plugins: [],
-};
-
-export default config;
+export default colors;
