@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import About from '@/components/About';
-import Portfolio from '@/components/Portfolio';
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
