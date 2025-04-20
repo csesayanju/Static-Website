@@ -1,11 +1,8 @@
 {
-    "projects": {},
-    "builds": [
-      {
-        "src": "lady-with-lens/package.json",
-        "use": "@vercel/next"
-      }
-    ],
-    "rootDirectory": "lady-with-lens"
+    "rootDirectory": "lady-with-lens",
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "outputDirectory": "out",
+    "framework": "nextjs"
   }
   
