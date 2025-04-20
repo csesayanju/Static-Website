@@ -1,8 +1,0 @@
-{
-    "rootDirectory": "lady-with-lens",
-    "buildCommand": "npm run build",
-    "devCommand": "npm run dev",
-    "outputDirectory": "out",
-    "framework": "nextjs"
-  }
-  
