@@ -7,8 +7,8 @@ import Portfolio from '@/components/Portfolio';
 const HomePage = () => {
   return (
     <>
-      <Section1 />
       <Hero />
+      <Section1 />
       <About />
       <Portfolio />
       <Section2 />
