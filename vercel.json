@@ -1,0 +1,11 @@
+{
+    "projects": {},
+    "builds": [
+      {
+        "src": "lady-with-lens/package.json",
+        "use": "@vercel/next"
+      }
+    ],
+    "rootDirectory": "lady-with-lens"
+  }
+  
