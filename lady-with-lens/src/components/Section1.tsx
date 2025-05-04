@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Section1 = () => {
   return (
     <section className="py-12 sm:py-16 md:py-20 bg-white">
@@ -16,10 +18,12 @@ const Section1 = () => {
             </div>
             <div className="md:w-1/2">
               <div className="relative aspect-video md:aspect-square rounded-lg overflow-hidden shadow-xl">
-                <img 
+                <Image 
                   src="/images/vision.jpg" 
                   alt="Our Vision" 
-                  className="object-cover w-full h-full"
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
             </div>

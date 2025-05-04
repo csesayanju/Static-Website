@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const About = () => (
   <section className="py-12 sm:py-16 md:py-20 bg-gray-50 text-gray-800">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,10 +16,12 @@ const About = () => (
           </div>
           <div className="hidden md:block">
             <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
-              <img 
+              <Image 
                 src="/images/about.jpg" 
                 alt="About LadyWithLens" 
-                className="object-cover w-full h-full"
+                fill
+                className="object-cover"
+                priority
               />
             </div>
           </div>

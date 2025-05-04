@@ -27,7 +27,7 @@ export default function Hero() {
         >
           👋
         </span>
-        Hey there, I'm{' '}
+        Hey there, I&apos;m{' '}
         <div
           className="inline-block min-h-[1.3em] align-text-bottom"
           style={{ lineHeight: 'normal' }}
